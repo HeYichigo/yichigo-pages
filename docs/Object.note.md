@@ -36,6 +36,18 @@ import java.lang.Object
 public final native Class<?> getClass();
 ```
 
+该方法返回的是：该对象的运行时类。  
+
+> 对于运行时类的理解：
+>
+> 一个类（比如：`People`）在创建时， *Java Virtual Machine* 会创建一个`Class`类型的对象 (`Class<People> peopleClass`)  
+>
+> 这个对象保存了该类在正在运行的 *Java Virtual Machine* 中所有信息
+
+```java
+public native int hashCode();
+```
+
 
 
 ## 引用
